@@ -24,22 +24,25 @@ WeatherApp — это консольное приложение для сотр�
 
 ## Пример работы
 
-╔══════════════════════════════════════════════════════╗
-║           ☀️  WEATHER STATION CONSOLE APP  ☁️         ║
-╟──────────────────────────────────────────────────────╢
-║  Enter, store and print weather data easily:         ║
-║  • Temperature (°C)                                  ║
-║  • Weather condition (Clear, Cloudy, Rain...)        ║
-║  • Comment about weather                             ║
-║  • Date & time auto-saved                            ║
-║  ➤ Save report to file (with unique filename)        ║
-║  ➤ Print report to screen                            ║
-║                                                      ║
-║  Author: Sergey Kazantsev, 2024                      ║
-╚══════════════════════════════════════════════════════╝
+## 🖥️ Пример работы
+
+```
++----------------------------------------+
+|    WEATHER STATION CONSOLE APP ☁️☀️     |
++----------------------------------------+
+| Enter, store and print weather data:   |
+|  • Temperature (°C)                    |
+|  • Weather condition (Clear, Cloudy..) |
+|  • Comment about weather               |
+|  • Date & time auto-saved              |
+|  • Save report to file                 |
+|  • Print report to screen              |
+|  Author: Sergei Kazantsev, 2025        |
++----------------------------------------+
 
 === Weather Entry ===
 Enter temperature (°C) [-90 .. +60]: 15
+
 Select weather condition:
 1. Clear
 2. Cloudy
@@ -47,12 +50,15 @@ Select weather condition:
 4. Snow
 5. Hail
 6. Fog
+
 Enter number: 2
+
 Enter comment (max 200 chars): Переменная облачность
 
 Choose action:
 1. Save to file
 2. Print report
+
 Your choice (1/2): 2
 
 --- Weather Report ---
@@ -60,6 +66,7 @@ Temperature: 15 °C
 Condition:   Cloudy
 Comment:     Переменная облачность
 Date/Time:   2024-06-08 17:21:12
+```
 
 ## 📑 Документация
-- Функциональные тест-кейсы в каталоге docs
+- Функциональные тест-кейсы в каталоге docs/
