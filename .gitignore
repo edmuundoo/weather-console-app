@@ -1,0 +1,74 @@
+# Build results
+bin/
+obj/
+TestResults/
+*.user
+*.suo
+*.userprefs
+
+# Visual Studio Code settings
+.vscode/
+.vs/
+
+# Rider settings
+.idea/
+*.sln.iml
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# User-specific files
+*.swp
+*.bak
+
+# Dotnet specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Logs
+*.log
+
+# Nuke build
+.nuke/
+
+# ASP.NET
+appsettings*.json
+
+# Rider/JetBrains/MonoDevelop
+.idea/
+*.pidb
+*.userprefs
+
+# Nuget
+*.nupkg
+.nuget/
+packages/
+*.snupkg
+
+# Environment files
+.env
+.env.*
+
+# Coverage
+coverage*
+*.coverage
+*.coveragexml
+
+# Test db
+test.db
+
+# Mac system files
+.DS_Store
+
+# Local secret settings
+secrets.json
+
+# Python/other editors
+__pycache__/
+*.pyc
