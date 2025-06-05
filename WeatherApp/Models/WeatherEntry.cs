@@ -16,7 +16,7 @@ namespace WeatherApp.Models
     {
         public float Temperature { get; set; }
         public WeatherCondition Condition { get; set; }
-        public string Comment { get; set; }
+        public string Comment { get; set; } = string.Empty;
         public DateTime DateTime { get; set; }
     }
 }
